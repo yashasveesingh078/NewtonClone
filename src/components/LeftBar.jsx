@@ -13,7 +13,7 @@ import {
 
 function LeftBar() {
   return (
-    <div className="w-70 h-full border-r border-gray-200 px-6 py-6">
+    <div className="w-70 h-full border-r border-gray-200 px-6 py-6 overflow-y-scroll scroll-smooth scrollbar-hid">
 
 
       <div className="mb-6">
@@ -58,27 +58,27 @@ function LeftBar() {
         </div>
 
         <div className="flex items-center gap-4 cursor-pointer hover:bg-gray-200 rounded-xl h-9 px-2">
-          <Users size={22} />
+          <Users size={20} />
           <span>Expert Sessions</span>
         </div>
 
         <div className="flex items-center gap-4 cursor-pointer hover:bg-gray-200 rounded-xl h-9 px-2">
-          <Calendar size={22} />
+          <Calendar size={20} />
           <span>Calendar</span>
         </div>
 
         <div className="flex items-center gap-4 cursor-pointer hover:bg-gray-200 rounded-xl h-9 px-2">
-          <Code size={22} />
+          <Code size={20} />
           <span>Arena</span>
         </div>
 
         <div className="flex items-center gap-4 cursor-pointer hover:bg-gray-200 rounded-xl h-9 px-2">
-          <Trophy size={22} />
+          <Trophy size={20} />
           <span>Leaderboard</span>
         </div>
 
         <div className="flex items-center gap-4 cursor-pointer hover:bg-gray-200 rounded-xl h-9 px-2">
-          <FileText size={22} />
+          <FileText size={20} />
           <span>Question of the Day</span>
         </div>
 
